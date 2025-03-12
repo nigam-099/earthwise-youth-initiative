@@ -1,21 +1,14 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Mail, Phone, MapPin, Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
-
 const Footer = () => {
-  return (
-    <footer className="bg-gray-50 pt-16 pb-8 border-t border-gray-200">
+  return <footer className="bg-gray-50 pt-16 pb-8 border-t border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
           <div className="space-y-4">
             <div className="flex items-center">
               <div className="h-10 w-10 rounded-full overflow-hidden bg-white flex items-center justify-center">
-                <img 
-                  src="/lovable-uploads/5d6ae683-ae65-4465-9cb3-6bd4341e0d12.png" 
-                  alt="Harit Eco Ventures Logo" 
-                  className="h-10 w-10 object-contain" 
-                />
+                <img src="/lovable-uploads/5d6ae683-ae65-4465-9cb3-6bd4341e0d12.png" alt="Harit Eco Ventures Logo" className="h-10 w-10 object-contain" />
               </div>
               <div className="ml-2">
                 <h4 className="font-display font-bold text-xl text-harit-500">Harit</h4>
@@ -119,11 +112,11 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
                 <Phone size={18} className="text-harit-500 mr-3 flex-shrink-0" />
-                <a href="tel:+9779800000000" className="text-gray-600 hover:text-harit-500 transition-colors">+977 980-000-0000</a>
+                <a href="tel:+9779800000000" className="text-gray-600 hover:text-harit-500 transition-colors">+977 9769269810</a>
               </li>
               <li className="flex items-center">
                 <Mail size={18} className="text-harit-500 mr-3 flex-shrink-0" />
-                <a href="mailto:info@haritecoventures.com" className="text-gray-600 hover:text-harit-500 transition-colors">info@haritecoventures.com</a>
+                <a href="mailto:info@haritecoventures.com" className="text-gray-600 hover:text-harit-500 transition-colors">haritecoventures@gmail.com</a>
               </li>
             </ul>
           </div>
@@ -135,8 +128,6 @@ const Footer = () => {
           </p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
