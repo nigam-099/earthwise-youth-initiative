@@ -42,11 +42,13 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <Link to="/" className="flex items-center">
-          <img
-            src="/lovable-uploads/5d6ae683-ae65-4465-9cb3-6bd4341e0d12.png"
-            alt="Harit Eco Ventures Logo"
-            className="h-12 w-12 object-contain"
-          />
+          <div className="h-12 w-12 rounded-full overflow-hidden bg-white flex items-center justify-center">
+            <img
+              src="/lovable-uploads/5d6ae683-ae65-4465-9cb3-6bd4341e0d12.png"
+              alt="Harit Eco Ventures Logo"
+              className="h-12 w-12 object-contain"
+            />
+          </div>
           <div className="ml-2 sm:ml-3">
             <span className="font-display font-bold text-lg sm:text-xl text-harit-500">
               Harit

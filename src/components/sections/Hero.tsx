@@ -45,11 +45,13 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="mb-8"
           >
-            <img 
-              src="/lovable-uploads/5d6ae683-ae65-4465-9cb3-6bd4341e0d12.png" 
-              alt="Harit Eco Ventures Logo" 
-              className="w-24 h-24 mx-auto mb-6"
-            />
+            <div className="w-24 h-24 rounded-full overflow-hidden bg-white mx-auto mb-6 flex items-center justify-center">
+              <img 
+                src="/lovable-uploads/5d6ae683-ae65-4465-9cb3-6bd4341e0d12.png" 
+                alt="Harit Eco Ventures Logo" 
+                className="w-24 h-24 object-contain"
+              />
+            </div>
           </motion.div>
           
           <motion.h1 

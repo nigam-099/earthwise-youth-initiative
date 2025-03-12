@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Mail, Phone, MapPin, Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
@@ -10,7 +9,13 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
           <div className="space-y-4">
             <div className="flex items-center">
-              <img src="/lovable-uploads/5d6ae683-ae65-4465-9cb3-6bd4341e0d12.png" alt="Harit Eco Ventures Logo" className="h-10 w-10" />
+              <div className="h-10 w-10 rounded-full overflow-hidden bg-white flex items-center justify-center">
+                <img 
+                  src="/lovable-uploads/5d6ae683-ae65-4465-9cb3-6bd4341e0d12.png" 
+                  alt="Harit Eco Ventures Logo" 
+                  className="h-10 w-10 object-contain" 
+                />
+              </div>
               <div className="ml-2">
                 <h4 className="font-display font-bold text-xl text-harit-500">Harit</h4>
                 <p className="text-xs font-medium">WASTE NOT WASTED</p>
