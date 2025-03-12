@@ -15,31 +15,31 @@ const About = () => {
       name: "Nigam Babu Koirala",
       position: "CEO",
       education: "Environmental Science Student at IOST",
-      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8cHJvZmVzc2lvbmFsJTIwbWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      image: "/lovable-uploads/4b74022a-6819-4b59-8b10-eec9dd16573f.png",
     },
     {
       name: "Gaurav Gupta",
       position: "General Manager",
       education: "",
-      image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHByb2Zlc3Npb25hbCUyMG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      image: "/lovable-uploads/0a42ba12-aba5-4462-82e2-e0b41100b747.png",
     },
     {
       name: "Rajan Pandey",
       position: "Finance Manager",
       education: "CA Student at ICAN",
-      image: "https://images.unsplash.com/photo-1530268729831-4b0b9e170218?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHByb2Zlc3Npb25hbCUyMG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      image: "/lovable-uploads/4b67a759-aa9d-4455-9f5b-19ddde95c908.png",
     },
     {
       name: "Niraj Pandey",
       position: "Technology Officer",
-      education: "",
-      image: "https://images.unsplash.com/photo-1556157382-97eda2f9296e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHByb2Zlc3Npb25hbCUyMG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      education: "Computer Science Student at Northern Kentucky University (NKU)",
+      image: "/lovable-uploads/882707d8-1395-48b8-b8d2-464180d8c046.png",
     },
     {
       name: "Hemanta Sharma",
       position: "Graphic Designer",
       education: "CSIT Student at IOST",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHByb2Zlc3Npb25hbCUyMG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      image: "/lovable-uploads/a702b0c3-75e3-4de0-aa50-eed60552c3d8.png",
     }
   ];
 

@@ -16,19 +16,25 @@ const Activities = () => {
       id: "waste-collection",
       title: "Waste Collection Drives",
       description: "We organize regular waste collection drives in local communities, schools, and public spaces. These drives help reduce littering, raise awareness about waste segregation, and encourage people to participate in keeping their surroundings clean.",
-      image: "https://images.unsplash.com/photo-1595278069441-2cf29f8005a4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cmVjeWNsaW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      image: "/lovable-uploads/5be31506-7675-4fb6-9496-017a1ced01f7.png"
     },
     {
       id: "recycling",
       title: "Recycling & Upcycling Initiatives",
-      description: "We actively engage in recycling and upcycling activities to transform waste materials, such as paper, plastic, and glass, into useful products. Our efforts contribute to reducing landfill waste and promoting a circular economy.",
-      image: "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHJlY3ljbGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
+      description: "We actively engage in recycling and upcycling activities to transform waste materials, such as paper, plastic, and glass bottles, into useful products. Our efforts contribute to reducing landfill waste and promoting a circular economy.",
+      image: "/lovable-uploads/83f2cdd6-7aae-45ec-b8ff-a5b85aee376e.png"
     },
     {
       id: "education",
       title: "Environmental Education Programs",
       description: "We conduct environmental education programs in schools and local communities, focusing on waste management, conservation, and the importance of sustainable practices. These programs are designed to inspire young minds and local residents to take action for the environment.",
       image: "https://images.unsplash.com/photo-1544717305-2782549b5136?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dGVhY2hpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      id: "waste-management",
+      title: "Waste Sorting & Management",
+      description: "Our team collects, sorts, and properly disposes of different types of waste. We have established proper waste management systems that help divert waste from landfills to recycling facilities.",
+      image: "/lovable-uploads/bfc82cda-c368-417a-b1cb-2e7ebbe272cb.png"
     },
     {
       id: "tree-plantation",
@@ -53,12 +59,6 @@ const Activities = () => {
       title: "Advocacy & Community Outreach",
       description: "We regularly engage in advocacy work to raise awareness about the importance of sustainable waste management practices. Through community outreach, we aim to inspire individuals and businesses to adopt environmentally friendly habits.",
       image: "https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29tbXVuaXR5JTIwb3V0cmVhY2h8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
-    },
-    {
-      id: "entrepreneurship",
-      title: "Climate Smart Entrepreneurship Initiatives",
-      description: "We participate in events such as the Climate Smart Entrepreneurship Program, where we showcase innovative recycling products and network with other environmentally conscious businesses to drive positive change.",
-      image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGVudHJlcHJlbmV1cnNoaXB8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
     }
   ];
 

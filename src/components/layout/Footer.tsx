@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Mail, Phone, MapPin, Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
@@ -25,17 +26,14 @@ const Footer = () => {
               A youth-driven organization committed to sustainable waste management and environmental conservation.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-500 hover:text-harit-500 transition-colors">
+              <a href="https://www.facebook.com/profile.php?id=61563359069601" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-harit-500 transition-colors">
                 <Facebook size={20} />
               </a>
-              <a href="#" className="text-gray-500 hover:text-harit-500 transition-colors">
+              <a href="https://x.com/harit_2081" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-harit-500 transition-colors">
                 <Twitter size={20} />
               </a>
-              <a href="#" className="text-gray-500 hover:text-harit-500 transition-colors">
+              <a href="https://www.instagram.com/haritecoventures/" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-harit-500 transition-colors">
                 <Instagram size={20} />
-              </a>
-              <a href="#" className="text-gray-500 hover:text-harit-500 transition-colors">
-                <Linkedin size={20} />
               </a>
             </div>
           </div>

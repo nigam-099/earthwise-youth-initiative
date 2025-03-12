@@ -21,9 +21,9 @@ const Hero = () => {
 
   return (
     <div className="relative h-screen min-h-[600px] overflow-hidden">
-      {/* Background image with parallax effect */}
+      {/* Background image with parallax effect - increased opacity from 0.3 to 0.7 */}
       <div 
-        className="absolute inset-0 z-0 opacity-30" 
+        className="absolute inset-0 z-0 opacity-70" 
         ref={parallaxRef}
       >
         <img
@@ -33,8 +33,8 @@ const Hero = () => {
         />
       </div>
       
-      {/* Overlay gradient */}
-      <div className="absolute inset-0 z-10 bg-gradient-to-b from-white/70 via-white/50 to-white/80" />
+      {/* Overlay gradient - adjusted to be less opaque */}
+      <div className="absolute inset-0 z-10 bg-gradient-to-b from-white/50 via-white/30 to-white/60" />
       
       {/* Content */}
       <div className="relative z-20 flex items-center justify-center h-full pt-20">

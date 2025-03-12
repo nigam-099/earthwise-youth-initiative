@@ -8,13 +8,13 @@ const ActivitiesSection = () => {
   const activities = [
     {
       title: "Waste Collection Drives",
-      image: "https://images.unsplash.com/photo-1595278069441-2cf29f8005a4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cmVjeWNsaW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      image: "/lovable-uploads/5be31506-7675-4fb6-9496-017a1ced01f7.png",
       link: "/activities#waste-collection"
     },
     {
-      title: "Tree Plantation Campaigns",
-      image: "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHBsYW50aW5nJTIwdHJlZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-      link: "/activities#tree-plantation"
+      title: "Waste Recycling",
+      image: "/lovable-uploads/83f2cdd6-7aae-45ec-b8ff-a5b85aee376e.png",
+      link: "/activities#recycling"
     },
     {
       title: "Environmental Education",
@@ -22,9 +22,9 @@ const ActivitiesSection = () => {
       link: "/activities#education"
     },
     {
-      title: "Sustainable Product Development",
-      image: "https://images.unsplash.com/photo-1604187351574-c75ca79f5807?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cmVjeWNsZWQlMjBwcm9kdWN0c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-      link: "/activities#products"
+      title: "Waste Sorting & Management",
+      image: "/lovable-uploads/bfc82cda-c368-417a-b1cb-2e7ebbe272cb.png",
+      link: "/activities#waste-management"
     }
   ];
 
