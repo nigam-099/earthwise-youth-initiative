@@ -22,6 +22,7 @@ export default {
 			fontFamily: {
 				sans: ['Inter', 'sans-serif'],
 				display: ['Montserrat', 'sans-serif'],
+				lovelace: ['Lora', 'serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',

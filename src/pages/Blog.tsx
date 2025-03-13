@@ -35,21 +35,27 @@ const Blog = () => {
       `
     },
     {
-      id: "recycling-initiative",
-      title: "New Recycling Initiative Launches in Bardiya District",
-      excerpt: "Our latest recycling initiative brings together local communities, schools, and businesses to address waste management challenges in Bardiya District.",
-      date: "September 15, 2023",
-      image: "https://images.unsplash.com/photo-1611284446314-60a58ac0deb9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjd8fHJlY3ljbGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
-      content: ""
-    },
-    {
-      id: "tree-plantation",
-      title: "Tree Plantation Drive: 500 Saplings Planted in Rajapur",
-      excerpt: "In collaboration with local schools and community volunteers, Harit Eco Ventures successfully planted 500 saplings across Rajapur Municipality.",
-      date: "October 2, 2023",
-      image: "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHBsYW50aW5nJTIwdHJlZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-      content: ""
-    },
+      id: "dustbin-installation",
+      title: "Dustbin Installation at Mela Mahotsav",
+      excerpt: "As part of our ongoing efforts to promote sustainable waste management, Harit Eco Ventures successfully installed multiple dustbins at the Mela Mahotsav event, making proper waste disposal accessible to attendees.",
+      date: "1st Magh, 2081 BS",
+      image: "/lovable-uploads/eea18526-abfa-4cbd-afe9-fc41da217fde.png",
+      content: `
+        <h2>Promoting Sustainable Waste Management at Local Events</h2>
+        <p>On 1st Magh 2081 BS, Harit Eco Ventures took a significant step towards promoting proper waste management by installing multiple dustbins at the Mela Mahotsav event. This initiative aimed to provide accessible waste disposal solutions and encourage proper waste segregation practices among attendees.</p>
+        
+        <h2>Strategic Placement for Maximum Impact</h2>
+        <p>The green dustbins, prominently featuring Harit's logo, were strategically placed throughout the event grounds to ensure easy access for all attendees. This thoughtful placement helped maximize the impact of our waste management efforts and raised awareness about the importance of proper waste disposal.</p>
+        
+        <h2>Community Response and Impact</h2>
+        <p>The response from the community was overwhelmingly positive. Many attendees expressed appreciation for the initiative, and we observed a significant reduction in littering compared to previous events. This success demonstrates the community's readiness to embrace sustainable practices when given the right tools and infrastructure.</p>
+        
+        <h2>Looking Ahead</h2>
+        <p>Building on this success, Harit Eco Ventures plans to expand this initiative to other local events and gatherings. By making proper waste disposal convenient and accessible, we aim to cultivate lasting waste management habits that extend beyond special events and into everyday life.</p>
+        
+        <p>This dustbin installation project represents just one aspect of our broader mission to promote environmental consciousness and sustainable waste management practices in our communities. We invite you to join us in this important work by supporting our initiatives and incorporating sustainable practices into your daily life.</p>
+      `
+    }
   ];
 
   return (
@@ -57,11 +63,11 @@ const Blog = () => {
       <Navbar />
       <PageTransition>
         <main>
-          <section className="pt-32 pb-20 bg-gray-50">
+          <section className="pt-32 pb-20 bg-gray-50 dark:bg-gray-900">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="text-center mb-16">
                 <motion.span 
-                  className="inline-block px-3 py-1 bg-harit-100 text-harit-700 rounded-full text-sm font-medium mb-4"
+                  className="inline-block px-3 py-1 bg-harit-100 text-harit-700 dark:bg-harit-900 dark:text-harit-300 rounded-full text-sm font-medium mb-4"
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5 }}
@@ -69,7 +75,7 @@ const Blog = () => {
                   Blog & Updates
                 </motion.span>
                 <motion.h1 
-                  className="text-3xl md:text-5xl font-bold text-gray-900 mb-6"
+                  className="text-3xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6 font-lovelace"
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: 0.1 }}
@@ -77,7 +83,7 @@ const Blog = () => {
                   Latest News & Insights
                 </motion.h1>
                 <motion.p 
-                  className="max-w-2xl mx-auto text-lg text-gray-600"
+                  className="max-w-2xl mx-auto text-lg text-gray-600 dark:text-gray-300"
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: 0.2 }}
@@ -90,7 +96,7 @@ const Blog = () => {
                 {blogPosts.map((post, index) => (
                   <motion.article 
                     key={post.id}
-                    className="bg-white rounded-xl shadow-sm overflow-hidden border border-gray-100 hover:shadow-md transition-all duration-300"
+                    className="bg-white dark:bg-gray-800 rounded-xl shadow-sm overflow-hidden border border-gray-100 dark:border-gray-700 hover:shadow-md transition-all duration-300"
                     initial={{ opacity: 0, y: 50 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6, delay: 0.3 + (index * 0.1) }}
@@ -104,15 +110,15 @@ const Blog = () => {
                         />
                       </div>
                       <div className="p-6 sm:p-8 md:col-span-2">
-                        <div className="flex items-center text-sm text-gray-500 mb-4">
+                        <div className="flex items-center text-sm text-gray-500 dark:text-gray-400 mb-4">
                           <Calendar className="h-4 w-4 mr-2" />
                           <span>{post.date}</span>
                         </div>
-                        <h2 className="text-2xl font-bold text-gray-900 mb-4">{post.title}</h2>
-                        <p className="text-gray-600 mb-6">{post.excerpt}</p>
+                        <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4 font-lovelace">{post.title}</h2>
+                        <p className="text-gray-600 dark:text-gray-300 mb-6">{post.excerpt}</p>
                         <Link 
                           to={`/blog/${post.id}`} 
-                          className="inline-flex items-center text-harit-600 font-medium hover:text-harit-700 transition-colors"
+                          className="inline-flex items-center text-harit-600 dark:text-harit-400 font-medium hover:text-harit-700 dark:hover:text-harit-300 transition-colors"
                         >
                           Read the full article
                           <ArrowRight className="h-4 w-4 ml-2 transition-transform duration-300 group-hover:translate-x-1" />
