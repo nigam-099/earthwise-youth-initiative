@@ -52,7 +52,7 @@ const BlogPreview = () => {
               <img 
                 src="/lovable-uploads/eea18526-abfa-4cbd-afe9-fc41da217fde.png" 
                 alt="Dustbin installation in Mela Mahotsav" 
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover" 
               />
             </div>
             <div className="p-6 sm:p-8">
@@ -70,7 +70,8 @@ const BlogPreview = () => {
                 contributing to a cleaner and more environmentally conscious community event.
               </p>
               <Link 
-                to="/blog/dustbin-installation" 
+                to="/blog"
+                state={{ selectedArticle: "dustbin-installation" }}
                 className="inline-flex items-center text-harit-600 dark:text-harit-400 font-medium hover:text-harit-700 dark:hover:text-harit-300 transition-colors"
               >
                 Read the full article
@@ -104,7 +105,8 @@ const BlogPreview = () => {
                 District.
               </p>
               <Link 
-                to="/blog/leading-the-charge" 
+                to="/blog" 
+                state={{ selectedArticle: "leading-the-charge" }}
                 className="inline-flex items-center text-harit-600 dark:text-harit-400 font-medium hover:text-harit-700 dark:hover:text-harit-300 transition-colors"
               >
                 Read the full article

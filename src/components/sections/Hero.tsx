@@ -21,7 +21,7 @@ const Hero = () => {
   return (
     <div className="relative h-screen min-h-[600px] overflow-hidden">
       {/* Background image with parallax effect - 100% opacity */}
-      <div className="absolute inset-0 z-0 opacity-100" ref={parallaxRef}>
+      <div className="absolute inset-0 z-0" ref={parallaxRef}>
         <img 
           src="/lovable-uploads/8798da8b-7f58-40bb-ad92-ffce57e95638.png" 
           alt="Recyclable materials" 
@@ -29,7 +29,7 @@ const Hero = () => {
         />
       </div>
       
-      {/* Overlay gradient - adjusted for better text readability */}
+      {/* Overlay gradient - adjusted for better text readability in both light and dark modes */}
       <div className="absolute inset-0 z-10 bg-gradient-to-b from-black/60 via-black/40 to-black/60" />
       
       {/* Content */}

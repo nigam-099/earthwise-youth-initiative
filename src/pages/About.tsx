@@ -4,7 +4,6 @@ import PageTransition from '@/components/ui/PageTransition';
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
 import { motion } from 'framer-motion';
-import TeamSection from '@/components/sections/TeamSection';
 
 const About = () => {
   useEffect(() => {
@@ -127,9 +126,6 @@ const About = () => {
               </div>
             </div>
           </section>
-
-          {/* Team section */}
-          <TeamSection />
         </main>
       </PageTransition>
       <Footer />
