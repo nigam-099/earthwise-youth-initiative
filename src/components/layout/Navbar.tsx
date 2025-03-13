@@ -114,6 +114,16 @@ const Navbar = () => {
             Activities
           </Link>
           <Link
+            to="/team"
+            className={cn(
+              'nav-link',
+              isHomePage && !isScrolled ? 'text-white hover:text-white/80' : '',
+              isActive('/team') && (isHomePage && !isScrolled ? 'text-white after:bg-white' : 'active')
+            )}
+          >
+            Our Team
+          </Link>
+          <Link
             to="/blog"
             className={cn(
               'nav-link',
@@ -237,6 +247,17 @@ const Navbar = () => {
                 )}
               >
                 Activities
+              </Link>
+              <Link
+                to="/team"
+                className={cn(
+                  'py-2 px-3 rounded transition-colors',
+                  isActive('/team')
+                    ? 'bg-harit-100 dark:bg-harit-900 text-harit-700 dark:text-harit-300'
+                    : 'text-gray-800 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-700'
+                )}
+              >
+                Our Team
               </Link>
               <Link
                 to="/blog"
