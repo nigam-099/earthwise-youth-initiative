@@ -46,19 +46,52 @@ const BlogPreview = () => {
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.5, delay: 0.3 }}
         >
-          {/* Blog 1 */}
+          {/* Blog 1 - Dustbin Installation (Newer) */}
           <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-sm overflow-hidden border border-gray-100 dark:border-gray-700 hover:shadow-md transition-all duration-300">
             <div className="aspect-w-16 aspect-h-9">
               <img 
-                src="https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHJlY3ljbGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" 
-                alt="Harit Eco Ventures recycling initiative" 
+                src="/lovable-uploads/eea18526-abfa-4cbd-afe9-fc41da217fde.png" 
+                alt="Dustbin installation in Mela Mahotsav" 
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="p-6 sm:p-8">
               <div className="flex items-center text-sm text-gray-500 dark:text-gray-400 mb-4">
                 <Calendar className="h-4 w-4 mr-2" />
-                <span>August 25, 2023</span>
+                <span>1st Magh, 2081</span>
+              </div>
+              <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
+                Dustbin Installation at Mela Mahotsav
+              </h3>
+              <p className="text-gray-600 dark:text-gray-300 mb-6 line-clamp-3">
+                As part of our commitment to sustainable waste management, Harit Eco Ventures installed 
+                multiple dustbins at the Mela Mahotsav event. This initiative aims to provide accessible 
+                waste disposal solutions and promote proper waste segregation practices among attendees, 
+                contributing to a cleaner and more environmentally conscious community event.
+              </p>
+              <Link 
+                to="/blog/dustbin-installation" 
+                className="inline-flex items-center text-harit-600 dark:text-harit-400 font-medium hover:text-harit-700 dark:hover:text-harit-300 transition-colors"
+              >
+                Read the full article
+                <ArrowRight className="h-4 w-4 ml-2 transition-transform duration-300 group-hover:translate-x-1" />
+              </Link>
+            </div>
+          </div>
+
+          {/* Blog 2 - Leading the Charge (Older) */}
+          <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-sm overflow-hidden border border-gray-100 dark:border-gray-700 hover:shadow-md transition-all duration-300">
+            <div className="aspect-w-16 aspect-h-9">
+              <img 
+                src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHBsYW50aW5nJTIwdHJlZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" 
+                alt="Harit Eco Ventures initiative" 
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="p-6 sm:p-8">
+              <div className="flex items-center text-sm text-gray-500 dark:text-gray-400 mb-4">
+                <Calendar className="h-4 w-4 mr-2" />
+                <span>13th Shrawan, 2081</span>
               </div>
               <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
                 Harit Eco Ventures: Leading the Charge Against Wasting Waste
@@ -72,39 +105,6 @@ const BlogPreview = () => {
               </p>
               <Link 
                 to="/blog/leading-the-charge" 
-                className="inline-flex items-center text-harit-600 dark:text-harit-400 font-medium hover:text-harit-700 dark:hover:text-harit-300 transition-colors"
-              >
-                Read the full article
-                <ArrowRight className="h-4 w-4 ml-2 transition-transform duration-300 group-hover:translate-x-1" />
-              </Link>
-            </div>
-          </div>
-
-          {/* Blog 2 */}
-          <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-sm overflow-hidden border border-gray-100 dark:border-gray-700 hover:shadow-md transition-all duration-300">
-            <div className="aspect-w-16 aspect-h-9">
-              <img 
-                src="/lovable-uploads/eea18526-abfa-4cbd-afe9-fc41da217fde.png" 
-                alt="Dustbin installation in Mela Mahotsav" 
-                className="w-full h-full object-cover"
-              />
-            </div>
-            <div className="p-6 sm:p-8">
-              <div className="flex items-center text-sm text-gray-500 dark:text-gray-400 mb-4">
-                <Calendar className="h-4 w-4 mr-2" />
-                <span>1st Magh, 2081 BS</span>
-              </div>
-              <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-                Dustbin Installation at Mela Mahotsav
-              </h3>
-              <p className="text-gray-600 dark:text-gray-300 mb-6 line-clamp-3">
-                As part of our commitment to sustainable waste management, Harit Eco Ventures installed 
-                multiple dustbins at the Mela Mahotsav event. This initiative aims to provide accessible 
-                waste disposal solutions and promote proper waste segregation practices among attendees, 
-                contributing to a cleaner and more environmentally conscious community event.
-              </p>
-              <Link 
-                to="/blog/dustbin-installation" 
                 className="inline-flex items-center text-harit-600 dark:text-harit-400 font-medium hover:text-harit-700 dark:hover:text-harit-300 transition-colors"
               >
                 Read the full article

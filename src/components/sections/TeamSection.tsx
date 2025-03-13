@@ -8,7 +8,7 @@ const TeamSection = () => {
       name: "Nigam Babu Koirala",
       position: "Chief Executive Officer",
       education: "Environmental Science Student at IOST",
-      image: "/lovable-uploads/4b74022a-6819-4b59-8b10-eec9dd16573f.png"
+      image: "/lovable-uploads/e57c71a9-520e-4b41-9a1c-09ca73a7b4a4.png"
     }
   ];
 
@@ -17,7 +17,7 @@ const TeamSection = () => {
       name: "Gaurav Gupta",
       position: "General Manager",
       education: "",
-      image: "/lovable-uploads/0a42ba12-aba5-4462-82e2-e0b41100b747.png"
+      image: "/lovable-uploads/b83269bd-e3c9-4ee1-93ea-6e97def2bb9f.png"
     },
     {
       name: "Rajan Pandey",

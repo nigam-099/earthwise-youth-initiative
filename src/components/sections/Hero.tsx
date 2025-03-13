@@ -1,3 +1,4 @@
+
 import React, { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
@@ -19,7 +20,7 @@ const Hero = () => {
 
   return (
     <div className="relative h-screen min-h-[600px] overflow-hidden">
-      {/* Background image with parallax effect - increased opacity to 100% */}
+      {/* Background image with parallax effect - 100% opacity */}
       <div className="absolute inset-0 z-0 opacity-100" ref={parallaxRef}>
         <img 
           src="/lovable-uploads/8798da8b-7f58-40bb-ad92-ffce57e95638.png" 
@@ -28,8 +29,8 @@ const Hero = () => {
         />
       </div>
       
-      {/* Overlay gradient - adjusted to be less opaque but keep text readable */}
-      <div className="absolute inset-0 z-10 bg-gradient-to-b from-black/50 via-black/40 to-black/60" />
+      {/* Overlay gradient - adjusted for better text readability */}
+      <div className="absolute inset-0 z-10 bg-gradient-to-b from-black/60 via-black/40 to-black/60" />
       
       {/* Content */}
       <div className="relative z-20 flex items-center justify-center h-full pt-20">
@@ -40,7 +41,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            <span className="text-harit-200">Youth-Powered</span>, <br className="hidden sm:block" />
+            <span className="text-white">Youth-Powered</span>, <br className="hidden sm:block" />
             <span className="relative">
               Earth-Centered
               <span className="absolute bottom-2 left-0 w-full h-2 bg-harit-500/60 -z-10"></span>
