@@ -97,7 +97,7 @@ const AboutSection = () => {
           transition={{ duration: 0.5, delay: 0.6 }}
         >
           <Link 
-            to="/about" 
+            to="/team" 
             className="inline-flex items-center text-harit-600 font-medium hover:text-harit-700 transition-colors"
           >
             Learn more about our journey
